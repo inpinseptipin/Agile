@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="n2hLD2" name="AgileUI" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="eEIdvH" name="AgileUI">
+    <GROUP id="{55A69A54-8611-276F-687C-AF2C1DC6F825}" name="Source">
+      <GROUP id="{8B8BF013-DF7A-817C-BB01-708FA426B945}" name="Automation">
+        <FILE id="GC0wJ2" name="Automation.cpp" compile="1" resource="0" file="Source/Automation/Automation.cpp"/>
+        <FILE id="zZkZ9A" name="Automation.h" compile="0" resource="0" file="Source/Automation/Automation.h"/>
+      </GROUP>
+      <GROUP id="{381B2A9C-9301-D35C-7DAA-49C1CEE7B25F}" name="UserInterface">
+        <FILE id="GpRmJv" name="Assets.h" compile="0" resource="0" file="Source/UserInterface/Assets.h"/>
+        <FILE id="lCLJib" name="SurveyComponent.cpp" compile="1" resource="0"
+              file="Source/UserInterface/SurveyComponent.cpp"/>
+        <FILE id="nDLtgq" name="SurveyComponent.h" compile="0" resource="0"
+              file="Source/UserInterface/SurveyComponent.h"/>
+        <GROUP id="{F4D50452-7DC9-2CD6-C21A-C6FFFDC27988}" name="Assets">
+          <FILE id="ZyXyeP" name="MCQQuestion.h" compile="0" resource="0" file="Source/UserInterface/Assets/MCQQuestion.h"/>
+          <FILE id="OW0TeB" name="TextQuestion.h" compile="0" resource="0" file="Source/UserInterface/Assets/TextQuestion.h"/>
+        </GROUP>
+        <FILE id="tGrTWA" name="DashboardComponent.cpp" compile="1" resource="0"
+              file="Source/UserInterface/DashboardComponent.cpp"/>
+        <FILE id="sw9RBE" name="DashboardComponent.h" compile="0" resource="0"
+              file="Source/UserInterface/DashboardComponent.h"/>
+        <FILE id="jI3rO2" name="SignUpComponent.cpp" compile="1" resource="0"
+              file="Source/SignUpComponent.cpp"/>
+        <FILE id="rT5DNA" name="SignUpComponent.h" compile="0" resource="0"
+              file="Source/SignUpComponent.h"/>
+        <FILE id="a14Vwl" name="LoginComponent.h" compile="0" resource="0"
+              file="Source/LoginComponent.h"/>
+        <FILE id="hmU8dj" name="LoginComponent.cpp" compile="1" resource="0"
+              file="Source/LoginComponent.cpp"/>
+      </GROUP>
+      <GROUP id="{93DA04D9-2322-C378-652A-E94406ADD0E7}" name="Network">
+        <FILE id="nBZNWa" name="Rest.cpp" compile="1" resource="0" file="Source/Network/Rest.cpp"/>
+        <FILE id="gNPBaO" name="Rest.h" compile="0" resource="0" file="Source/Network/Rest.h"/>
+      </GROUP>
+      <FILE id="zteAvq" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="AgileUI"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="AgileUI"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
